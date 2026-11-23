@@ -1,0 +1,9 @@
+G7 - Control proyecto 2 - rev D4.4 - especificacion para el fabricante (JLCPCB u otro)
+Archivo a subir: G7_Gerber_D4.4_para_fabricante.zip (7 capas Gerber + Excellon PTH/NPTH separados)
+Capas: 2 (F.Cu, B.Cu)        Dimensiones: 125,0 x 70,0 mm (Edge_Cuts)
+Material: FR-4, espesor 1,6 mm   Cobre: 1 oz   Acabado: HASL (con o sin plomo)
+Mascara: verde   Serigrafia: blanca   Cantidad minima: 5
+Pista/separacion minima: 0,25 / 0,25 mm   Via minima: 0,6 / 0,3 mm   Taladro minimo: 0,3 mm
+Taladros: 112 PTH (84 pads THT + 28 vias) + 8 NPTH (4 x 3,2 mm y 4 x 2,2 mm)
+Montaje 100 % THT, soldado a mano por el grupo: SIN ensamblaje del fabricante (sin SMT/PCBA) y sin estencil.
+Pistas con esquinas a 45 grados (0 esquinas a 90 grados).

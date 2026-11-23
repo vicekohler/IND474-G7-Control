@@ -1,0 +1,7 @@
+flowchart LR
+  B["Cruceta + A/B + Menú"] --> MCU["RP2350-Plus-M"]
+  J["KY-023: X/Y + clic"] --> MCU
+  MCU -->|"USB HID teclado"| PC["PC / MakeCode Arcade"]
+  MCU -->|"SPI + control propuestos"| TFT["ST7789: estado local"]
+  PC -->|"Alimentación USB"| REG["Regulación Waveshare"]
+  REG -->|"3V3 y GND"| MCU

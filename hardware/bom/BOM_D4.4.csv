@@ -1,0 +1,19 @@
+﻿Item,Ref,Cant,Descripción,Valor,Huella KiCad,Fabricante,MPN,Proveedor / código,Montaje (Sí/DNP),Notas
+1,SW1–SW6,6,"Pulsador táctil 12×12×7,3 mm THT, 4 patas rectas (patrón 12,5×5 mm)","UP, DOWN, LEFT, RIGHT, A, B",Button_Switch_THT:SW_PUSH-12mm,Omron (o genérico equivalente),B3F-4055,POR COMPRAR: el kit en inventario es SMD (patas dobladas) y no sirve,Sí,"Los capuchones del kit (Ø11,5) calzan en el vástago 3,8 mm"
+2,—,6,"Capuchón redondo para pulsador 12 mm (Ø11,5 × 8,5 mm)",Colores a elección,—,Incluido en el kit,—,Mechatronicstore (inventario),Sí,Altura pulsador + capuchón ≈ 12 mm
+3,SW7,1,"Pulsador táctil 6×6×6 mm THT (patrón 6,5×4,5 mm)",MENU,Button_Switch_THT:SW_PUSH_6mm,Omron (o genérico),B3F-1000,Inventario propio,Sí,—
+4,C1,1,"Condensador cerámico de disco 100 nF ≥50 V, paso 5 mm",100 nF,Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm,"KEMET (o genérico ""104"")",K104K15X7RF5TL2,POR COMPRAR (inventario es SMD 0805),Sí,≈4 mm de J4.2; desacoplo del TFT
+5,C2,1,"Condensador electrolítico radial 10 µF ≥16 V, Ø5 × 11 mm, paso 2 mm",10 µF,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,Nichicon (o genérico),UVR1H100MDD,POR COMPRAR (inventario es SMD 1210),Sí,"Polarizado: pata larga (+) al pad cuadrado / marca ""+"""
+6,"J1, J2",2,"Zócalo hembra 1×20, paso 2,54 mm, 8,5 mm",RP2350-Plus-M,Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical,Sullins,PPTC201LFBN-RC,Por comprar,Sí (cara B),Soldar con el módulo insertado para alinear
+7,J3,1,"Conector JST XH 5 vías vertical, paso 2,50 mm",KY-023,Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical,JST,B5B-XH-A,"Disponible (profesor), XH confirmado",Sí,1 GND · 2 3V3 · 3 VRx · 4 VRy · 5 SW
+8,J4,1,"Zócalo hembra 1×07, paso 2,54 mm, 8,5 mm",TFT,Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical,Sullins,PPTC071LFBN-RC,Por comprar,Sí,El TFT se enchufa directo (pin 1 = GND arriba)
+9,U1,1,Módulo Waveshare RP2350-Plus-M (tiras macho soldadas de fábrica),—,— (en J1/J2),Waveshare,RP2350-Plus-M,Disponible (1 u),Sí,USB-C y regulador 3V3 incluidos; pinout Pico 2
+10,DS1,1,"Módulo TFT IPS 1,3"" 240×240 ST7789, 7 pines (GND VCC SCL SDA RES DC BLK)",—,— (en J4 + H5–H8),Genérico,ZJY-IPS130-V2.0,Disponible,Sí,Versión de 7 pines sin CS; BLK queda sin conectar (backlight encendido por defecto)
+11,JS1,1,"Módulo joystick KY-023 (2 ejes + pulsador), PCB 34×26",—,— (cable a J3),Keyes / genérico,KY-023,Disponible,Sí,"Atornillado a la tapa: Ø3,0 en patrón 26,5×20,5 (confirmado); alimentar a 3V3"
+12,W1,1,"Cable JST XH 5 vías hembra–hembra, 10–15 cm",—,—,JST,XHP-5 + SXH-001T-P0.6,Disponible (profesor),Sí,Marcar GND en ambos extremos (no tiene guía en el lado del KY)
+13,H1–H4,4,Separador M3 hembra–hembra 18 mm + 8 tornillos M3×6,—,MountingHole:MountingHole_3.2mm_M3,Genérico,—,Por comprar,Sí,"Portadora a carcasa (módulo + USB-C: 16,8 mm por detrás)"
+14,H5–H8,4,"Separador M2 nailon redondo Ø≤3,5 × 11 mm + 8 tornillos M2×4 (cabeza ≤Ø3,8)",—,Control_proyecto_2:MountingHole_2.2mm_M2_TFT,Genérico,—,Por comprar,Sí,Fijación del TFT a la portadora
+15,—,4,"Tornillo M2,5 × 6 para fijar el KY-023 a las torres de la tapa",—,—,Genérico,—,Por comprar,Sí,PCB del KY a 9 mm sobre la portadora
+16,—,7,"Prolongadores impresos para pulsadores (6 × ~8 mm, MENU ~14 mm)",—,—,Impresión 3D (PLA),—,Por diseñar con la tapa,Sí,Necesarios con la tapa a 19 mm
+17,PCB,1,"PCB 125×70 mm, 2 capas, FR-4 1,6 mm, 1 oz, HASL, máscara verde, 100 % THT",rev D4.4,—,JLCPCB,—,Por fabricar,—,Gerbers: G7_Gerber_D4.4_para_fabricante.zip (sin ensamblaje del fabricante)
+18,—,1,Cable USB-C con datos,—,—,Genérico,—,Disponible,—,Comprobar que enumera como dispositivo USB

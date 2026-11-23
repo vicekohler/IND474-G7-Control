@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Control_proyecto_2")(type "KiCad")(uri "${KIPRJMOD}/Control_proyecto_2.pretty")(options "")(descr "Huellas propias D4.2"))
+)
