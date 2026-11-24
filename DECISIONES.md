@@ -33,6 +33,8 @@ Registro de las decisiones del Control G7 y de lo que cambió desde la propuesta
 | C4 | Perilla del joystick con **cúpula** que tapa el mecanismo | Perilla estándar del KY-023 | La original quedaba 22 mm sobre la cara y dejaba el mecanismo a la vista. Sin choques hasta 30°. | ✅ verificado en CAD |
 | C5 | Capuchones impresos **huecos con nervios**; MENU macizo | — | Menos material sin perder rigidez; MENU es chico y se imprime mejor macizo. | ⏳ impresión |
 | C6 | Agujeros de aguja para **BOOT y RESET** | — | Reprogramar sin abrir la carcasa. | ⏳ confirmar cuál es cuál en el módulo real |
+| C8 | **Partición que sigue la geometría del grip** (24/11, feedback del profesor) | Plano z = 0 en toda la carcasa | Con el plano, cada grip quedaba como un tubo profundo que necesitaba soporte interior. Ahora la unión baja por la línea media de cada grip hasta la punta; cada mitad es una cáscara abierta. En el cuerpo sigue en z = 0. | ✅ CAD: tapa y base de 1 cuerpo cada una, sin interferencia |
+| C9 | **2 pasadores de alineación por grip** (Ø3 × 4 mm en la tapa, agujero Ø3,3 en la base, torres Ø7) | — | En los grips la unión ya no es plana y el faldón no calzaba; sin guía podía quedar un escalón donde va la palma. | ⏳ impresión |
 | C7 | USB-C arriba al centro, ventana 13,5 × 7,5 con bisel | — | Enchufe medido de 12,1 × 6,4 mm; el cable sale hacia el PC. | ⏳ probeta |
 
 ### Holguras (a confirmar con la probeta)
